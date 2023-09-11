@@ -168,3 +168,22 @@ ul {
   margin-left: 22px; /* Отступ слева */
   padding-top: 15px;
 }
+
+.main-left {
+  margin-left: 40px;
+}
+
+.hello {
+  padding-top: 11px;
+}
+
+.main-last-block-text1 {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Roboto;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.09px;
+  padding-top: 4px;
+}
