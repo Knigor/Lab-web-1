@@ -4,6 +4,37 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+video {
+  width: 134px;
+  height: 198px;
+  flex-shrink: 0;
+  border: 1px solid #5865da;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.video-block {
+  padding-top: 11px;
+}
+
+.frame-block {
+  padding-top: 14px;
+  padding-left: 34px;
+  margin-bottom: 32px;
+}
+
+.video-text {
+  color: #000;
+  font-family: Roboto;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
 }
 
 footer {
@@ -60,7 +91,7 @@ main {
 
 .main-middle-line {
   width: 1px;
-  height: 870.001px;
+  height: 958.001px;
   background: rgba(0, 0, 0, 0.3);
 }
 
@@ -278,7 +309,7 @@ ul {
   letter-spacing: 0.3px;
   text-decoration-line: underline;
   text-transform: uppercase;
-  padding-top: 44px;
+  padding-top: 14px;
 }
 
 .english-text2 {
@@ -318,7 +349,7 @@ ul {
 }
 
 .hobby-text {
-  padding-top: 63px;
+  padding-top: 31px;
   color: #000;
   font-family: Roboto;
   font-size: 15px;
@@ -418,8 +449,9 @@ ul {
 }
 
 .otsup-submit-block {
-  padding-top: 38px;
+  padding-top: 28px;
   padding-left: 32px;
+  margin-bottom: 20px;
 }
 
 .submit-block {
@@ -461,9 +493,7 @@ ul {
   letter-spacing: 0.1px;
 }
 
+/* Большие девайсы */
 
-@media (min-width: 770px ) {
-  header{
-    background-color: black;
-  }
+@media only screen and (max-width: 1200px) {
 }
