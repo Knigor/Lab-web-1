@@ -343,9 +343,12 @@ ul {
 .main-submit-block {
   flex-direction: column;
   display: flex;
-  padding-top: 38px;
-  margin-left: 32px;
-  margin-right: 72px;
+  flex-shrink: 0;
+  background: #fef9f5;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 206px;
+  height: 177px;
+  flex-shrink: 0;
 }
 
 .input-name {
@@ -358,11 +361,109 @@ ul {
 
 .square {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
-  width: 206px;
-  height: 177px;
+  margin-left: 17px;
+}
+
+.text-field {
+  width: 173px;
+  height: 30px;
   flex-shrink: 0;
+  border-radius: 1px;
+  border: 0.5px solid rgba(0, 0, 0, 0.7);
   background: #fef9f5;
-  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding-left: 7px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.16px;
+}
+
+.text-field:focus {
+  outline: none;
+}
+
+.input-block {
+  display: flex;
+  flex-direction: column;
+  padding-top: 7px;
+  gap: 8px;
+  padding-bottom: 16px;
+}
+
+.input-text1 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  padding-top: 11px;
+}
+
+.input-text2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.16px;
+  padding-top: 4px;
+}
+
+.otsup-submit-block {
+  padding-top: 38px;
+  padding-left: 32px;
+}
+
+.submit-block {
+  display: flex;
+  justify-content: center;
+}
+
+.button-submit {
+  width: 80px;
+  height: 25px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: #d6a8a8;
+  color: #000;
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1px;
+}
+
+.button-submit:active {
+  color: rgb(143, 32, 198);
+}
+
+.button-submit:hover {
+  background: rgba(27, 125, 149, 0.2);
+}
+
+.text-field::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Roboto;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.1px;
+}
+
+
+@media (min-width: 770px ) {
+  header{
+    background-color: black;
+  }
 }
