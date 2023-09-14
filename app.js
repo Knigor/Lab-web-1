@@ -1,3 +1,3 @@
 let video = document.getElementById("myVideo");
 
-video.volume = 0.2;
+video.volume = 0.09;
