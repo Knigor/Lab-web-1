@@ -493,53 +493,75 @@ ul {
   letter-spacing: 0.1px;
 }
 
-/* Большие девайсы */
+.mobile{
+  display: none;
+}
 
-@media only screen and (max-width: 480px) {
-  header {
-    max-width: 400px;
+/* iphone X */
+
+@media (max-width: 640){
+  main{
+    margin-left: 60px;
+    background-color: orange;
+  }
+}
+
+
+
+
+
+@media (max-width: 367px) {
+  
+ body{
+  width: 360px;
+ }
+
+ .header-top{
+  background-image: url(/image/Mobile-header.svg);
+  width: 360px;
+ }
+
+ 
+
+  .main-top-line{
+    max-width: 357px;;
+  }
+  .main-middle-line{
+    display: none;
+  }
+  .main-right{
+    display: none;
   }
 
-  main {
-    max-width: 480px;
+  .mobile{
+    display: initial;
   }
-  .header-top {
-    max-width: 400px;
+  .footer-line {
+    max-width: 360px;
   }
-  .main-middle {
-    margin-left: 0;
-    max-width: 600px;
+  
+  .video-text{
+    padding-top: 11px;
   }
-  .main-right {
-    margin-left: 6px;
+  
+  .otsup-submit-block{
+    padding-top: 0px; 
+     padding-left: 0px;
   }
 
-  .main-left {
+  .footer-left-text{
+    display: flex;
+    padding-top: 22px;
+    padding-left: 12px;
     font-size: 10px;
   }
-  .footer-left-text {
-    font-size: 10px;
+
+  .footer-center{
+    gap: 0px;
   }
-  .footer-right-lists {
-    font-size: 10px;
+  
+  .footer-right{
+    padding-right: 5px;
   }
 
-  .main-text-left1 {
-    font-size: 10px;
-  }
-  .main-left-top-text {
-    font-size: 8px;
-  }
-
-  .main-left-second-text {
-    font-size: 8px;
-  }
-
-  .main-left-third-text {
-    font-size: 8px;
-  }
-
-  .main-left-lists-text {
-    font-size: 8px;
-  }
 }
