@@ -499,18 +499,7 @@ ul {
 
 /* iphone X */
 
-@media (max-width: 640){
-  main{
-    margin-left: 60px;
-    background-color: orange;
-  }
-}
-
-
-
-
-
-@media (max-width: 367px) {
+@media (max-width: 460px) {
   
  body{
   width: 360px;
@@ -564,4 +553,9 @@ ul {
     padding-right: 5px;
   }
 
+
+
 }
+
+
+
